@@ -56,10 +56,8 @@ let personalMoveDB = {
       }
       personalMoveDB.genres[i - 1] = genre;
     }
-    let ind = 1;
     personalMoveDB.genres.forEach((element, i) => {
        console.log(`Любимый жанр #${i+1} - это ${element}`);
-       ind++;
     });
   },
   toggleVisibleMyDB: function() {
